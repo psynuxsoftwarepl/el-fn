@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-mobile-bg: hsl(var(--mobile-bg));
+
+
+  --gradient-primary: linear-gradient(132.73deg, #B8A171 0%, #FFF2CC 100%);
+  --color-gradient-start: #B8A171;
+  --color-gradient-end: #FFF2CC;
+}
+
+@layer base {
+ :root {
+  /* (very dark gray) — commented out */
+  /* --background: 0, 0%, 8%, 1; */
+
+  --background: 0, 0%, 0%, 1; /* Pure black */
+  --foreground: 0, 0%, 100%, 1;
+  --mobile-bg: 0, 0%, 0%, 1;
+}
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-mobile-bg md:bg-background text-foreground font-["Inter"] overflow-x-hidden;
+  }
+}
+
+@utility text-gradient {
+  background-image: var(--gradient-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@utility border-gradient-primary {
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: var(--gradient-primary) 1;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--tw-ring-color);
+    --tw-ring-color: color-mix(
+      in srgb,
+      var(--color-gradient-end) 75%,
+      transparent
+    );
+  }
+}
+
+@utility my-container {
+  @apply relative h-full w-[80vw] lg:w-[70vw] mx-auto;
+}
+
+@layer components {
+  .btn-gradient {
+    background-image: var(--gradient-primary);
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--tw-ring-color);
+      --tw-ring-color: color-mix(
+        in srgb,
+        var(--color-gradient-end) 75%,
+        transparent
+      );
+    }
+  }
+}
