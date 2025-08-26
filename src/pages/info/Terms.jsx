@@ -64,7 +64,7 @@ const Terms = () => (
         </Section>
 
         <Section title="8. CUSTOMER RELATIONSHIP MANAGEMENT:">
-            <p>8.1 All issues, opinions, suggestions, questions, and feedback while availing of Eleqt's Services shall be communicated to us through the following email address: hello@eleqt.in</p>
+            <p>8.1 All issues, opinions, suggestions, questions, and feedback while availing of Eleqt's Services shall be communicated to us through the following email address: eleqtmobility@gmail.com</p>
             <p>8.2 Reporting of any issue needs to be within 7 (seven) days of the occurrence of the issue, failing which, such issue will not be addressed. The User agrees and acknowledges that any issues/complaints/grievances a User has must be communicated to Eleqt only through the Electronic Media or to the consumer helpdesk as stipulated in these Terms of Use of the Electronic Media and not on any other third-party platform/social media channels.</p>
             <p>8.3 The User shall be responsible and liable in respect of the wrongful allegation made and any issues posted on such other third-party platforms/social media.</p>
             <p>8.4 Eleqt takes no liability for the inability to get back or respond to any complaints made or content posted by the User about Eleqt on other channels.</p>
@@ -117,7 +117,7 @@ const Terms = () => (
         </Section>
 
         <Section title="17. CONTACT US:">
-            <p>For questions or support, contact us at: Email: hello@eleqt.in</p>
+            <p>For questions or support, contact us at: Email: eleqtmobility@gmail.com</p>
             <p>Eleqt Mobility | M/s Psynuxsoftware Pvt. Ltd.</p>
         </Section>
 
