@@ -8,17 +8,17 @@ const ServiceSection = () => {
 
   const services = [
     {
-      img: "/assets/LC.png",
+      img: "/assets/luxurypr.jpg",
       title: "Luxury Cars",
       description: "Arrive in Style & Sophistication",
     },
     {
-      img: "/assets/OT.png",
+      img: "/assets/outstationprs.png",
       title: "Outstation Trips",
       description: "Seamless Journeys Beyond Boundaries",
     },
     {
-      img: "/assets/HR.png",
+      img: "/assets/hourleyrnt.jpg",
       title: "Hourly Rentals",
       description: "Executive Rides for Busy Days",
     },
@@ -221,11 +221,11 @@ const ServiceSection = () => {
       {/* RIGHT: TEXT */}
       <div className="hidden md:flex w-1/2 bg-black/50 flex-col justify-center p-8 animate-slideIn">
         <h3 className="text-3xl font-bold text-[#B8A171] mb-4">
-          Curate an Experience to Remember
+          On-time, Seamless, Smooth Journeys
+          With Extra Space and Thoughtful Aminities 
         </h3>
         <p className="text-gray-400 leading-relaxed">
-          Planning something special? Share your event details, and we’ll get
-          back to you with a personalized plan within 48 hours.
+          Whether it's a meeting or me-time, Schedule your ride in advance and Enjoy precision timing, premium comfort, and peace of mind.
         </p>
       </div>
     </div>
