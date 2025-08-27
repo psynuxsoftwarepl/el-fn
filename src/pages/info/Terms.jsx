@@ -59,8 +59,8 @@ const Terms = () => (
         </Section>
 
         <Section title="7. ADVERTISEMENT AND LINKS:">
-            <p>7.1 Shoffr may periodically send promotional emails, SMSs, or push notifications to the User about its Services.</p>
-            <p>7.2 Shoffr also reserves the right to reject or refuse any third-party service used by the User in conjunction with Eleqt's Electronic Media.</p>
+            <p>7.1 Eleqt may periodically send promotional emails, SMSs, or push notifications to the User about its Services.</p>
+            <p>7.2 Eleqt also reserves the right to reject or refuse any third-party service used by the User in conjunction with Eleqt's Electronic Media.</p>
         </Section>
 
         <Section title="8. CUSTOMER RELATIONSHIP MANAGEMENT:">

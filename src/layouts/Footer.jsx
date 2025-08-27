@@ -35,10 +35,10 @@ const Footer = ({ bgColor, ...props }) => {
     "Cancellation & refund": "/cancellation-refund",
     "Terms and conditions": "/terms-and-conditions",
     FAQs: "/faq",
-    "Airport transfers": "/airport-transfers",
-    "City rentals": "/hourly-rental",
-    "Outstation trips": "/outstation-trips",
-    "Event partnerships": "/events",
+    "Airport transfers": "/",
+    "City rentals": "/",
+    "Outstation trips": "/",
+    "Event partnerships": "/",
   };
 
   const contactLinks = {
